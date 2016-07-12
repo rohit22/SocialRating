@@ -1,0 +1,9 @@
+sudo apt-get update
+
+sudo apt-get install python-pip
+
+sudo pip install omdb
+
+sudo apt-get install python-Flask python-numpy python-scipy python-pandas 
+
+sudo apt-get install python-sklearn
