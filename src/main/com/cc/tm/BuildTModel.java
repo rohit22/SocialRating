@@ -9,6 +9,8 @@ import java.util.*;
 import java.util.regex.*;
 import java.io.*;
 
+// Topic Modelling using Mallet
+
 public class BuildTModel {
 
 	public static void main(String[] args) throws Exception {

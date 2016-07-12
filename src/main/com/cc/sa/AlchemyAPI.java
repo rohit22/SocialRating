@@ -19,8 +19,7 @@ import org.xml.sax.SAXException;
 
 public class AlchemyAPI {
 
-	//private static String _apiKey = "0da824ce491b87189b5ed8bc230e0c18d0a295b4";
-	private static String _apiKey = "4aa6c88ffda70ab24d999f7552dc6736735c0193";
+	private static String _apiKey = "API-KEY";
 	private static String _requestUri = "https://gateway-a.watsonplatform.net/calls/";
 
 	public static String getSentiment(String text) {

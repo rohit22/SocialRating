@@ -13,6 +13,8 @@ import edu.stanford.nlp.trees.Tree;
 import edu.stanford.nlp.util.CoreMap;
 import main.com.run.Search;
 
+// Sentiment Analysis using Stanford NLP toolkit
+
 public class SentimentAnalyzer {
 
 	private StanfordCoreNLP pipeline;

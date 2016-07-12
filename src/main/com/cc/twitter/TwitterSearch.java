@@ -25,10 +25,10 @@ public class TwitterSearch {
 		if (instance == null) {
 			instance = new TwitterSearch();
 			twitter = new TwitterFactory().getInstance();
-			accessToken = new AccessToken("15960177-Rp90ddg8Rc8FBa99PHdXsUeFXeaMRKx8jNyg4QVJR",
-					"NkKS7bfa4x0vgC4wU4EHKrnVM8V7DzzWxjQ5wVS8HsvmL");
+			accessToken = new AccessToken("PUBLIC-KEY",
+					"PRIVATE-KEY");
 
-			twitter.setOAuthConsumer("CJAXt2iFZRB7wAAJZwQX7Flsk", "QLiRrx8Knx4AVB9ZrEEafmxplzRdQ97EgysEb9Ka7c1LhySOII");
+			twitter.setOAuthConsumer("OAUTH-TOKEN", "OAUTH-VALUE");
 			twitter.setOAuthAccessToken(accessToken);
 
 		}
